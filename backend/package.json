@@ -1,0 +1,20 @@
+{
+  "name": "support-crm-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "migrate": "node src/migrate.js",
+    "seed:superadmin": "node src/seed-superadmin.js"
+  },
+  "dependencies": {
+    "argon2": "^0.45.2",
+    "dotenv": "^16.6.1",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

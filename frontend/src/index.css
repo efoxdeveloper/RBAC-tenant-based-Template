@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+#root {
+  min-height: 100vh;
+  font-family: Inter, Arial, sans-serif;
+}
+
+body,
+button,
+input {
+  font-family: Inter, Arial, sans-serif;
+}
